@@ -20,7 +20,7 @@ export const bettingSites: BettingSite[] = [
     id: 1,
     name: "Ladbrokes",
     logo: "/ladbrokes.webp",
-    bonus: "Only £5 to Claim £30 Welcome Bonus",
+    bonus: "Only £5 to Claim £30",
     url: "https://www.ladbrokes.com/en/sports",
     rating: 9.8,
     stars: 5,
