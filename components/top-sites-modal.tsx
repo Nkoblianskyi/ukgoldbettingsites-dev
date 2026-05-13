@@ -46,11 +46,11 @@ export function TopSitesModal() {
         </div>
 
         {/* Logo box */}
-        <div className="mx-6 mt-6 border border-border bg-[#1a1a1a] flex items-center justify-center py-7">
+        <div className="mx-6 mt-6 border border-border bg-white flex items-center justify-center py-7">
           <img
             src={topSite.logo || "/placeholder.svg"}
             alt={`${topSite.name} logo`}
-            className="h-14 max-w-[200px] object-contain"
+            className="h-24 max-w-[240px] object-contain"
           />
         </div>
 
