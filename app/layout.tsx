@@ -3,9 +3,6 @@ import type { Metadata } from "next"
 import { Playfair_Display, Source_Serif_4, Barlow_Condensed } from "next/font/google"
 import "./globals.css"
 import { Footer } from "@/components/footer"
-import { CookieBanner } from "@/components/cookie-banner"
-import { TopSitesModal } from "@/components/top-sites-modal"
-
 const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -25,7 +22,7 @@ const barlow = Barlow_Condensed({
 })
 
 export const metadata: Metadata = {
-  title: "UK Gold Betting Sites — Best UK Bookmakers 2025",
+  title: "UK Gold Betting Sites - Best UK Bookmakers 2026",
   description:
     "Independent ranking of the best UKGC-licensed betting sites in the United Kingdom. Expert reviews, welcome offers, and unbiased ratings for UK bettors. ukgoldbettingsites.com",
   robots: "index, follow",
@@ -54,9 +51,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <div className="min-h-screen w-full">
           {children}
-          <Footer />
-          <CookieBanner />
-          <TopSitesModal />
+
         </div>
       </body>
     </html>

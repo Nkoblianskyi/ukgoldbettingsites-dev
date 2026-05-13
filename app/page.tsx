@@ -5,6 +5,7 @@ import { Hero } from "@/components/hero"
 import { RatingSection } from "@/components/rating-section"
 import { InfoSections } from "@/components/info-sections"
 import { TopSitesModal } from "@/components/top-sites-modal"
+import { CookieBanner } from "@/components/cookie-banner"
 import { Footer } from "@/components/footer"
 
 export default function HomePage() {
@@ -15,7 +16,10 @@ export default function HomePage() {
       <Hero />
       <RatingSection />
       <InfoSections />
+      <CookieBanner />
+      <TopSitesModal />
       <Footer />
+
     </div>
   )
 }

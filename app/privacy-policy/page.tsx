@@ -1,3 +1,4 @@
+import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { PageLayout, ContentBlock } from "@/components/page-layout"
 
@@ -72,6 +73,8 @@ export default function PrivacyPolicyPage() {
         ))}
 
       </PageLayout>
+                <Footer />
+
     </div>
   )
 }
