@@ -11,7 +11,6 @@ import { Footer } from "@/components/footer"
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
-      <TopSitesModal />
       <Header />
       <Hero />
       <RatingSection />
@@ -19,7 +18,6 @@ export default function HomePage() {
       <CookieBanner />
       <TopSitesModal />
       <Footer />
-
     </div>
   )
 }
