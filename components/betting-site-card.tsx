@@ -71,7 +71,7 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
 
         {/* Bonus */}
         <div className="flex flex-col items-center justify-center text-center px-4">
-          <p className="font-mono text-[9px] text-muted-foreground uppercase tracking-widest"> Welcome Bonus</p>
+          <p className="font-mono text-[14px] text-muted-foreground uppercase tracking-widest"> Welcome Bonus</p>
           <p className="font-heading font-bold text-2xl md:text-2xl text-primary leading-tight">
             {site.bonus}
           </p>
@@ -138,7 +138,7 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
         </div>
 
         <div className=" flex flex-col items-center text-center py-3 mb-3">
-            <p className="font-mono text-[9px] text-muted-foreground uppercase tracking-widest"> Welcome Bonus</p>
+            <p className="font-mono text-[12px] text-muted-foreground uppercase tracking-widest"> Welcome Bonus</p>
           <p className="font-heading font-bold text-2xl text-primary leading-tight">{site.bonus}</p>
         </div>
 
