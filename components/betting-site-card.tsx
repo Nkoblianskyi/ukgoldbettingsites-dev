@@ -155,8 +155,7 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
 
       {/* Disclaimer */}
       <div className="px-3 md:px-4 pb-2 border-t border-border">
-        <p className="text-muted-foreground/60 text-[9px] pt-1.5 font-mono">
-          <span className="text-destructive font-semibold">18+</span> | {site.terms}
+        <p className="text-muted-foreground/60 text-[9px] pt-1.5 font-mono"> {site.terms}
         </p>
       </div>
     </div>
