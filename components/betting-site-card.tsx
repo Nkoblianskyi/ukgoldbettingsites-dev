@@ -61,17 +61,17 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
         </div>
 
         {/* Logo */}
-        <div className="flex-shrink-0 h-16 flex items-center justify-center px-3 overflow-hidden">
+        <div className="flex-shrink-0 h-24 flex items-center bg-white justify-center px-3 overflow-hidden">
           <img
             src={site.logo || "/placeholder.svg"}
             alt={`${site.name} logo`}
-            className="max-h-12 max-w-[150px] object-contain"
+            className="max-h-24 max-w-[200px] object-contain"
           />
         </div>
 
         {/* Bonus */}
         <div className="flex flex-col items-center justify-center text-center px-4">
-          <p className="font-heading font-bold text-2xl md:text-3xl text-primary leading-tight">
+          <p className="font-heading font-bold text-2xl md:text-2xl text-primary leading-tight">
             {site.bonus}
           </p>
           <div className="flex gap-2 mt-2 flex-wrap justify-center">
@@ -119,13 +119,13 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
           >
             {rank}
           </div>
-          <div className="flex-shrink-0 h-12 flex items-center justify-center px-2">
+          <div className="flex-shrink-0 h-18 bg-white flex items-center justify-center px-2">
             <Image
               src={site.logo || "/placeholder.svg"}
               alt={`${site.name} logo`}
               width={120}
               height={44}
-              className="h-9 w-auto object-contain"
+              className="h-18 w-auto object-contain"
             />
           </div>
           <div className="flex-1 text-right">
