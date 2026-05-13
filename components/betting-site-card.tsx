@@ -61,7 +61,7 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
         </div>
 
         {/* Logo */}
-        <div className="flex-shrink-0 h-24 flex items-center bg-white justify-center px-3 overflow-hidden">
+        <div className="flex-shrink-0 h-24 flex items-center bg-white justify-center p-2 overflow-hidden">
           <img
             src={site.logo || "/placeholder.svg"}
             alt={`${site.name} logo`}
@@ -119,13 +119,13 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
           >
             {rank}
           </div>
-          <div className="flex-shrink-0 h-18 bg-white flex items-center justify-center px-2">
+          <div className="flex-shrink-0 h-18 bg-white flex items-center justify-center p-2">
             <Image
               src={site.logo || "/placeholder.svg"}
               alt={`${site.name} logo`}
-              width={120}
-              height={44}
-              className="h-18 w-auto object-contain"
+              width={140}
+              height={64}
+              className="object-contain"
             />
           </div>
           <div className="flex-1 text-right">
