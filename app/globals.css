@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* UK Gold Betting Sites — Newspaper dark theme */
+    --background: 0 0% 6%;
+    --foreground: 40 20% 95%;
+    --card: 0 0% 10%;
+    --card-foreground: 40 20% 95%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 40 20% 95%;
+    --primary: 43 90% 52%;
+    --primary-foreground: 0 0% 5%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 40 20% 88%;
+    --muted: 0 0% 14%;
+    --muted-foreground: 40 10% 55%;
+    --accent: 43 90% 52%;
+    --accent-foreground: 0 0% 5%;
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 43 90% 52%;
+    --radius: 0rem;
+    /* Rule line color for newspaper dividers */
+    --rule: 43 90% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Newspaper rule line utility */
+.rule-line {
+  border-top: 3px solid hsl(var(--rule));
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.rule-thin {
+  border-top: 1px solid hsl(var(--border));
+}
